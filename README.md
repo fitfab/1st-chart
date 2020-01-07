@@ -44,7 +44,7 @@ service:
   type: ClusterIP
 ```
 
-**YOU MUST FORWARD THE PORT IN ORDER TO SEE IT BROWSER**
+**YOU MUST FORWARD THE PORT IN ORDER TO SEE IT IN THE BROWSER**
 
 `kubectl port-forward svc/example3-mychart 7000:80`
 
